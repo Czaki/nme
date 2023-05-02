@@ -19,7 +19,7 @@ warnings.warn("nme is deprecated, use local_migrator instead", DeprecationWarnin
 
 del warnings
 
-__version__ = "0.1.7"
+__version__ = "0.1.8"
 
 __all__ = (
     "class_to_str",
