@@ -39,3 +39,6 @@ cbor = [
 ]
 
 
+[project.urls]
+Homepage = "https://github.com/Czaki/nme"
+Repository = "https://github.com/Czaki/nme"

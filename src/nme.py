@@ -1,3 +1,5 @@
+import warnings
+
 from local_migrator import (
     class_to_str,
     check_for_errors_in_dkt_values,
@@ -12,6 +14,10 @@ from local_migrator import (
     nme_cbor_encoder,
     nme_cbor_decoder,
 )
+
+warnings.warn("nme is deprecated, use local_migrator instead", DeprecationWarning)
+
+del warnings
 
 __version__ = "0.1.7"
 
